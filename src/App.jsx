@@ -12,11 +12,7 @@ function ContadorTruco() {
     <div className="contadorTruco">
       <h1>Contador de Truco</h1>
       <p>
-        {pontuacaoTimeA === 12
-          ? "Time A Venceu!"
-          : pontuacaoTimeB === 12
-            ? "Time B Venceu!"
-            : null}
+        "Time A Venceu!"
       </p>
       <div className="timesContainer">
         <div className="timeCard">
